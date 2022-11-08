@@ -1,0 +1,177 @@
+body{
+	width: 95%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+
+
+.page-head{
+	background-color: #334155;
+	padding: 15px 0;
+	border-bottom: 2px solid #61666c29;
+	
+}
+
+
+
+.page-title{
+	font-family: calibri;
+	text-align: center;
+	color: white;
+}
+
+
+li{
+	text-decoration: none;
+	list-style: none;
+
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nav-btn{
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-family: calibri;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+
+
+.nav-btn:hover{
+	text-decoration: underline;
+	color: #d7ff53;
+	font-size: 1.15em;
+	transition: color 0.24s ease;
+	transition: font-size 0.24s ease;
+
+}
+
+
+.search-section{
+	width: 250px;
+	height: 350px;
+	padding: 10px ;
+	margin: 40px auto;
+	border: 1px solid #64748b;
+	box-shadow: 3px 3px 3px gray;
+	border-radius: 15px;
+	font-family: calibri;
+	font-weight: bold;
+	background-color: #334155;
+}
+
+.s-title{
+	text-align: center;
+	font-size: 1.3em;
+	color: white;
+}
+
+.b-form>label{
+	color: white;
+	font-size: 1.1em;
+	display: block;
+}
+
+.b-form>input{
+	display: block;
+	margin-bottom: 20px;
+	width: 200px;
+	color: black;
+	border: 1.5px solid #ffffff;
+	font-family: calibri;
+}
+
+.b-form>input:invalid{
+	border: 1.5px solid #000000;
+}
+
+.b-form>input:focus{
+	outline: none;
+}
+
+.submit-btn{
+	display: block;
+	font-family: calibri;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	font-size: 1.1em;
+	padding: 0 15px;
+	border-radius: 5px;
+	width: 82.69px;
+	margin: 0 auto;
+	border: 2px  solid black ;
+}
+
+.submit-btn:hover{
+	opacity: 0.8;
+}
+
+.submit-btn:active{
+	border: 2px  outset ;
+}
+
+
+.main-part{
+	min-height: 600px;
+	background-color: wheat;
+	/* overflow-y: scroll; */
+}
+
+.load{
+	font-family: calibri;
+	text-align: center;
+	padding: 10px 0;
+	color: black;
+	font-weight: bold;
+	font-size: 1.4em;
+	
+}
+
+.err{
+	font-family: calibri;
+	text-align: center;
+	padding: 10px 0;
+	color: black;
+	font-weight: bold;
+	font-size: 1.4em;
+	
+}
+
+.verse{
+	font-family: calibri;
+	text-align: left;
+	padding: 10px;
+	color: black;
+	font-weight: bold;
+	font-size: 1.1em;
+
+}
+
+
+.infos{
+	font-family: calibri;
+	text-align: center;
+	background-color: #334155;
+	padding: 10px 0;
+	color: white;
+	font-weight: bold;
+}
